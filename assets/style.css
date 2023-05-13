@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+.fixWidth{
+    min-width: 70%;
+    max-width: 70%;
+}
+.flexWidth{
+    flex-basis: 25%;
+}
+.flexWidth2{
+    flex-basis: 75%;
+}
+.widthAdjustment{
+    width: 71%;
+}
+.mainDivOne{
+    flex-basis: 90%;
+}
+li{
+    list-style: none;
+}
+.maxFlex{
+    flex-basis: 100%;
+}
+.seperateFlex{
+    flex-basis: 15%;
+    
+}
