@@ -25,5 +25,7 @@ li{
 }
 .seperateFlex{
     flex-basis: 15%;
-    
+}
+.marginEdit{
+    padding-top: 5px;
 }

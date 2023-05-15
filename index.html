@@ -29,8 +29,8 @@
             <strong>Search For A City:</strong>
             </h1>
         </label>
-        <div class="d-grid gap-2 col-6 fixWidth">
-        <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+        <form class="d-grid gap-2 col-6 fixWidth" id="userFormElement">
+        <input class="form-control" list="datalistOptions" id="userTypedInfo" placeholder="Type to search...">
         <datalist id="datalistOptions">
             <option value="San Francisco">
             <option value="New York">
@@ -38,10 +38,10 @@
             <option value="Los Angeles">
             <option value="Chicago">
         </datalist>
-        <button class="btn btn-primary" type="button">Search</button>
-        </div>
-        <div class="border-black border-top widthAdjustment">
-            <p></p>
+        <button class="btn btn-primary gap-2" type="submit">Search</button>
+        </form>
+        <div class="border-black border-top widthAdjustment d-grid gap-2 col-6 marginEdit" id="previousSearchHistory">
+            
         </div>
     </aside>
 
