@@ -29,73 +29,15 @@
             <strong>Search For A City:</strong>
             </h1>
         </label>
-        <form class="d-grid gap-2 col-6 fixWidth" id="userFormElement">
-        <input class="form-control" list="datalistOptions" id="userTypedInfo" placeholder="Type to search...">
-        <datalist id="datalistOptions">
-            <option value="San Francisco">
-            <option value="New York">
-            <option value="Seattle">
-            <option value="Los Angeles">
-            <option value="Chicago">
-        </datalist>
-        <button class="btn btn-primary gap-2" type="submit">Search</button>
+        <form class="d-grid gap-2 col-6 fixWidth form" id="userFormElement">
+        <input class="form-control form-input" id="userTypedInfo" placeholder="Type to search...">
+        <button class="btn btn-primary gap-2 searchBtn" id="searchBtn" type="submit">Search</button>
         </form>
         <div class="border-black border-top widthAdjustment d-grid gap-2 col-6 marginEdit" id="previousSearchHistory">
             
         </div>
     </aside>
-
-
-    <main class="p-2 d-flex flex-column mb-3 flexWidth2 gap-2 hide" id="main">
-        <div class="border border-black mainDivOne">
-            <h1 id="cityName"></h1>
-            <img id="Icon"></img>
-            <p id="Temprature">Temp</p>
-            <p id="Wind">Wind</p>
-            <p id="Humidity">Humidity</p>
-        </div>
-        <div class="d-flex">
-            <div class="maxFlex">
-                <h1>5-Day Forecast:</h1>
-            </div>
-        </div>
-        <div class="d-flex gap-2">
-            <div class="seperateFlex bg-primary">
-                <h2 id="Date1">Date</h2>
-                <img id="Icon2"></img>
-                <p id="Temprature2">Temp</p>
-                <p id="Wind2">Wind</p>
-                <p id="Humidity2">Humidity</p>
-            </div>
-            <div class="seperateFlex bg-primary">
-                <h2 id="Date2">Date</h2>
-                <img id="Icon3"></img>
-                <p id="Temprature3">Temp</p>
-                <p id="Wind3">Wind</p>
-                <p id="Humidity3">Humidity</p>
-            </div>
-            <div class="seperateFlex bg-primary">
-                <h2 id="Date3">Date</h2>
-                <img id="Icon4"></img>
-                <p id="Temprature4">Temp</p>
-                <p id="Wind4">Wind</p>
-                <p id="Humidity4">Humidity</p>
-            </div>
-            <div class="seperateFlex bg-primary">
-                <h2 id="Date4">Date</h2>
-                <img id="Icon5"></img>
-                <p id="Temprature5">Temp</p>
-                <p id="Wind5">Wind</p>
-                <p id="Humidity5">Humidity</p>
-            </div>
-            <div class="seperateFlex bg-primary">
-                <h2 id="Date5">Date</h2>
-                <img id="Icon6"></img>
-                <p id="Temprature6">Temp</p>
-                <p id="Wind6">Wind</p>
-                <p id="Humidity6">Humidity</p>
-            </div>
-        </div>
+    <main class="p-2 d-flex flex-column mb-3 flexWidth2 gap-2" id="main">
     </main>
     </div>
 </body>
