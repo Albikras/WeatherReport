@@ -1,16 +1,15 @@
-var searchInput = document.getElementById('userTypedInfo');
-var searchBtn = document.getElementById('searchBtn');
-var userFormElement = document.getElementById('userFormElement');
+var searchInput = document.getElementById('userTypedInfo');//declaring variable searchInput and setting it equal to id of userTypedInfo 
+var searchBtn = document.getElementById('searchBtn');//declaring variable searchBtn and setting it equal to id of searchBtn 
+var userFormElement = document.getElementById('userFormElement');//declaring variable userFormElement and setting it equal to id of userFormElement 
 
-var apiKey = '9be1ab40fb6c098c07f182a1724c0fbd';
-var apiUrl = "https://api.openweathermap.org/data/2.5/weather?";
-var apiUrl2 = "https://api.openweathermap.org/data/2.5/forecast?";
-var iconUrl = 'https://openweathermap.org/img/wn/';
+var apiKey = '9be1ab40fb6c098c07f182a1724c0fbd';//declare variable apiKey and set equal to the api key
+var apiUrl = "https://api.openweathermap.org/data/2.5/weather?";//declare variable apiUrl and set equal to api link
+var apiUrl2 = "https://api.openweathermap.org/data/2.5/forecast?";//declare variable apiUrl2 and set equal to api link
+var iconUrl = 'https://openweathermap.org/img/wn/';//declare variable iconUrl and set equal to a linkf or the icons
 
-var mainElement = $('#main');
+var mainElement = $('#main');//declare variable mainElement and set equal to id of main
 
-var arrayDivs = ['1','2','3','4','5'];
-var arrayListHistory = [];
+var arrayDivs = ['1','2','3','4','5'];//declare variable of arrayDivs and set equal to an array with 5 elements
 
 function handleForm(event){
     event.preventDefault();
