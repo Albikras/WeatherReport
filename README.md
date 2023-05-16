@@ -46,4 +46,9 @@ SOFTWARE.
 
 ## Links
 
+Github: https://github.com/Albikras/WeatherReport
+Deployed Application: https://albikras.github.io/WeatherReport/
+
 ## Screenshot
+
+![screenshot of deployed application](./assets/images/Screenshot.png)
