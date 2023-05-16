@@ -1,42 +1,42 @@
 /* set body margin to 0 */
-body{
-    margin: 0;
+body {
+  margin: 0;
 }
 /* call to class fixWidth set it to min-width to 70% max-width to 70% flex-basis to 25%*/
-.fixWidth{
-    min-width: 70%;
-    max-width: 70%;
-    flex-basis: 25%;
+.fixWidth {
+  min-width: 70%;
+  max-width: 70%;
+  flex-basis: 25%;
 }
 /* call to class fixWidth2 sit it to flex-basis to 75%*/
-.flexWidth2{
-    flex-basis: 75%;
+.flexWidth2 {
+  flex-basis: 75%;
 }
 /* call to class widthAdjustment set width to 71% */
-.widthAdjustment{
-    width: 71%;
+.widthAdjustment {
+  width: 71%;
 }
 /* call class mainDivOne, set flex-basis to 90% */
-.mainDivOne{
-    flex-basis: 90%;
+.mainDivOne {
+  flex-basis: 90%;
 }
 /* call to element li and set list-style to none */
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
 /* call to class maxFlex and set flex-basis to 100% */
-.maxFlex{
-    flex-basis: 100%;
+.maxFlex {
+  flex-basis: 100%;
 }
 /* call to class seperateFlex set flex-basis to 15%*/
-.seperateFlex{
-    flex-basis: 15%;
+.seperateFlex {
+  flex-basis: 15%;
 }
 /* call to class marginEdit set padding-top to 5px */
-.marginEdit{
-    padding-top: 5px;
+.marginEdit {
+  padding-top: 5px;
 }
 /* call class text and set text color equal to white use important to override bootstrap */
-.text{
-    color: white!important;
+.text {
+  color: white !important;
 }

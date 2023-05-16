@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- links to thrid party api's -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,700;1,200&display=swap"
       rel="stylesheet"
@@ -19,43 +22,56 @@
     <!-- link to css -->
     <link rel="stylesheet" href="./assets/style.css" />
     <title>Weather Report</title>
-</head>
-<!-- header element with an h1 element, touched up through bootstrap -->
-<header class="navbar bg-primary d-flex justify-content-center">
+  </head>
+  <!-- header element with an h1 element, touched up through bootstrap -->
+  <header class="navbar bg-primary d-flex justify-content-center">
     <h1 class="text-center">Weather Dashboard</h1>
-</header>
-<body>
+  </header>
+  <body>
     <!-- this potion is for the form portion where the user will input which city then click button search -->
     <div class="d-flex">
-    <aside class="p-2 d-flex flex-column mb-3 flexWidth gap-2">
+      <aside class="p-2 d-flex flex-column mb-3 flexWidth gap-2">
         <label for="exampleDataList" class="form-label">
-            <h1>
+          <h1>
             <strong>Search For A City:</strong>
-            </h1>
+          </h1>
         </label>
         <form class="d-grid gap-2 col-6 fixWidth form" id="userFormElement">
-        <input class="form-control form-input" id="userTypedInfo" placeholder="Type to search...">
-        <button class="btn btn-primary gap-2 searchBtn" id="searchBtn" type="submit">Search</button>
+          <input
+            class="form-control form-input"
+            id="userTypedInfo"
+            placeholder="Type to search..."
+          />
+          <button
+            class="btn btn-primary gap-2 searchBtn"
+            id="searchBtn"
+            type="submit"
+          >
+            Search
+          </button>
         </form>
         <!-- empty div for search histroy -->
-        <div class="border-black border-top widthAdjustment d-grid gap-2 col-6 marginEdit" id="previousSearchHistory">
-            
-        </div>
-    </aside>
-    <!-- empty main class to be appended later -->
-    <main class="p-2 d-flex flex-column mb-3 flexWidth2 gap-2" id="main">
-    </main>
+        <div
+          class="border-black border-top widthAdjustment d-grid gap-2 col-6 marginEdit"
+          id="previousSearchHistory"
+        ></div>
+      </aside>
+      <!-- empty main class to be appended later -->
+      <main
+        class="p-2 d-flex flex-column mb-3 flexWidth2 gap-2"
+        id="main"
+      ></main>
     </div>
-</body>
-<!-- third party api's -->
-        <script
-      src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
-      integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
-      crossorigin="anonymous"
-    ></script>
-        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-        <!-- link to javascript -->
-<script src="./script.js"></script>
+  </body>
+  <!-- third party api's -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+    integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <!-- link to javascript -->
+  <script src="./script.js"></script>
 </html>
