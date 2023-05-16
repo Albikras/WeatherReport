@@ -74,11 +74,11 @@ async function weather(city){
         var formatedFuturesDate = dayjs(futuresDate).format('MM-DD-YYYY');//declare variable formatedFuturesDate and set equal to dayjs.format to format the previous date properly
 
         var smallDivBlock = $('<div class="seperateFlex bg-primary"><div>');//declare a variable smallDivBlock and set it equal to created element div with classes
-        var headerTwo = $('<h2></h2>').text(formatedFuturesDate);//declare variable headerTwo and set equal to created element h2 and then set text equal to formatedFuturesDate
+        var headerTwo = $('<h2 class="text"></h2>').text(formatedFuturesDate);//declare variable headerTwo and set equal to created element h2 and then set text equal to formatedFuturesDate
         var img = $('<img></img>').attr('src', iconUrl+apiInformationTwo.list[x].weather[0].icon+'.png');//declare variable img and set equal to element img and set attr src to the image from iconUrl and icon from object of apiInformationTwo
-        var pOne = $('<p></p>').text('Temp: '+Math.round(apiInformationTwo.list[x].main.temp)+'°C');//declare variable pOne and set equal to element p then set text equal to rounded value from apiInformationTwo object
-        var pTwo = $('<p></p>').text('Wind: '+apiInformationTwo.list[x].wind.speed+'m/s');//declare variable pTwo and set equal to element p then set text equal to  apiInformationTwo object
-        var pThree = $('<p></p>').text('Humidity: '+apiInformationTwo.list[x].main.humidity+'%');//declare variable pThree and set equal to element p then set text equal to  apiInformationTwo object
+        var pOne = $('<p class="text"></p>').text('Temp: '+Math.round(apiInformationTwo.list[x].main.temp)+'°C');//declare variable pOne and set equal to element p then set text equal to rounded value from apiInformationTwo object
+        var pTwo = $('<p class="text"></p>').text('Wind: '+apiInformationTwo.list[x].wind.speed+'m/s');//declare variable pTwo and set equal to element p then set text equal to  apiInformationTwo object
+        var pThree = $('<p class="text"></p>').text('Humidity: '+apiInformationTwo.list[x].main.humidity+'%');//declare variable pThree and set equal to element p then set text equal to  apiInformationTwo object
 
         largeDivBlock.append(smallDivBlock);// append variable smallDivBlock to largeDivBlock
         smallDivBlock.append(headerTwo, img, pOne, pTwo, pThree);// append variables headerTwo, img, pOne, pTwo, and pThree to smallDivBlock

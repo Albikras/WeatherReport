@@ -36,3 +36,7 @@ li{
 .marginEdit{
     padding-top: 5px;
 }
+/* call class text and set text color equal to white use important to override bootstrap */
+.text{
+    color: white!important;
+}
