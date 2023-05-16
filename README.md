@@ -10,10 +10,11 @@ N/A
 
 ## Usage
 
-![]()
-![]()
-![]()
-![]()
+![showing the default display of the webpage](./assets/images/Empty.png)
+![showing what happens when you input a city value](./assets/images/Appearing.png)
+![showing what happens when you search another city without refreshing](./assets/images/ChangedName.png)
+![showing what heppens when you insert an invalid input](./assets/images/Invalid.png)
+![showing how the search history does not repat previously searched values](./assets/images/Norepeat.png)
 
 ## Credits
 
